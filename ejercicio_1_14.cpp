@@ -8,7 +8,7 @@ using namespace std;
 const float m=2.0;
 const float x=1.0;
 const float v=0.0;
-const float k=50.0;
+const float k=100.0;
 float deltaT;
 float t_0=0.0;
 

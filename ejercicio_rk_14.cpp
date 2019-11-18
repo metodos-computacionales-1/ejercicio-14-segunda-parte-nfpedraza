@@ -13,6 +13,7 @@ const float x=1.0;
 const float v=0.0;
 const float k=50.0;
 const double lambda =1.0;
+const double drag =0.2;
 double DeltaT=0.01;
 double t_0=0.0;
 
@@ -35,7 +36,7 @@ double fy0(double t, double y0, double y1)
 
 double fy1(double t, double y0, double y1)
 {
-  return (-k/m)*pow(y0, lambda);
+  return (-k/m)*pow(y0, lambda)-drag*y1;
 }
 
 

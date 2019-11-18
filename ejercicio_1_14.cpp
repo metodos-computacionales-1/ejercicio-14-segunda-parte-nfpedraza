@@ -36,6 +36,6 @@ void Euler_m(float m,float x, float v, float k, float deltaT, string name){
 
 int main(){
 string name="exe_14.dat";
-Euler_m(2.0,1.0,1.0,10.0,0.01,name);
+Euler_m(2.0,1.0,0.0,10.0,0.01,name);
 return 0;
 }
